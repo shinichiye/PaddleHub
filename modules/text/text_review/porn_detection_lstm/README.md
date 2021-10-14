@@ -1,6 +1,6 @@
 # porn_detection_lstm
 
-| 模型名称            |  senta_bilstm  |
+| 模型名称            |  porn_detection_lstm  |
 | :------------------ | :------------: |
 | 类别                | 文本-文本审核  |
 | 网络                |      LSTM      |
@@ -74,7 +74,7 @@
 - ### 3、API
 
   - ```python
-    def detection(texts=[], data={}, use_gpu=False, batch_size=1):
+    def detection(texts=[], data={}, use_gpu=False, batch_size=1)
     ```
   
     - porn_detection_lstm预测接口，鉴定输入句子是否为黄文
@@ -89,7 +89,7 @@
       - results(list): 鉴定结果
   
   - ```python
-    def context(trainable=False):
+    def context(trainable=False)
     ```
   
     - 获取porn_detection_lstm的预训练program以及program的输入输出变量
@@ -102,7 +102,7 @@
       - main_program(Program): 带有预训练参数的program
   
   - ```python
-    def get_labels():
+    def get_labels()
     ```
     - 获取porn_detection_lstm的可识别的类别及其编号
   
@@ -110,7 +110,7 @@
       - labels(dict): porn_detection_lstm的类别及其对应编号(二分类，是/不是)
   
   - ```python
-    def get_vocab_path():
+    def get_vocab_path()
     ```
     - 获取预训练时使用的词汇表
   
