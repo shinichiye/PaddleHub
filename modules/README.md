@@ -37,21 +37,6 @@
    
 ## 图像
 
-   - ### 图像分类
-
-|module|网络|数据集|
-|--|--|--|
-|rexnet_3_0_imagenet|ReXNet|ImageNet|
-|rexnet_2_0_imagenet|ReXNet|ImageNet|
-|rexnet_1_5_imagenet|ReXNet|ImageNet|
-|rexnet_1_3_imagenet|ReXNet|ImageNet|
-|rexnet_1_0_imagenet|ReXNet|ImageNet|
-|repvgg_b3g4_imagenet|RepVGG|ImageNet|
-|repvgg_b2g4_imagenet|RepVGG|ImageNet|
-|repvgg_b2_imagenet|RepVGG|ImageNet|
-|repvgg_b1g4_imagenet|RepVGG|ImageNet|
-|repvgg_b1g2_imagenet|RepVGG|ImageNet|
-
 
    - ### 文字识别
 
@@ -77,6 +62,23 @@
 |[openpose_body_estimation](./image/keypoint_detection/openpose_body_estimation)|two-branch multi-stage CNN|MPII, COCO 2016|肢体关键点检测|
 |[human_pose_estimation_resnet50_mpii](./image/keypoint_detection/human_pose_estimation_resnet50_mpii)|Pose_Resnet50|MPII|人体骨骼关键点检测
 |[openpose_hands_estimation](./image/keypoint_detection/openpose_hands_estimation)|-|MPII, NZSL|手部关键点检测|
+
+
+   - ### 图像分类
+
+|module|网络|数据集|
+|--|--|--|
+|rexnet_3_0_imagenet|ReXNet|ImageNet|
+|rexnet_2_0_imagenet|ReXNet|ImageNet|
+|rexnet_1_5_imagenet|ReXNet|ImageNet|
+|rexnet_1_3_imagenet|ReXNet|ImageNet|
+|rexnet_1_0_imagenet|ReXNet|ImageNet|
+|repvgg_b3g4_imagenet|RepVGG|ImageNet|
+|repvgg_b2g4_imagenet|RepVGG|ImageNet|
+|repvgg_b2_imagenet|RepVGG|ImageNet|
+|repvgg_b1g4_imagenet|RepVGG|ImageNet|
+|repvgg_b1g2_imagenet|RepVGG|ImageNet|
+
 
    - ### 图像分割
 
@@ -199,6 +201,23 @@
 ## 文本
 
    - ### 文本生成
+|module|网络|数据集|简介|
+|--|--|--|--|
+|[ernie_gen](./text/text_generation/ernie_gen)|ERNIE-GEN|-|
+|[ernie_gen_couplet](./text/text_generation/ernie_gen_couplet)|ERNIE-GEN|开源对联数据集|
+|[ernie_gen_poetry](./text/text_generation/ernie_gen_poetry)|ERNIE-GEN|开源诗歌数据集|
+|[ernie_gen_acrostic_poetry](./text/text_generation/ernie_gen_acrostic_poetry)|ERNIE-GEN|开源诗歌数据集|
+|[reading_pictures_writing_poems](./text/text_generation/reading_pictures_writing_poems)|-|-|
+|[ernie_gen_lover_words](./text/text_generation/ernie_gen_lover_words)|ERNIE-GEN|网络情诗、情话数据|
+|[plato2_en_base](./text/text_generation/plato2_en_base)|plato2|开放域多轮数据集|
+|[CPM_LM](./text/text_generation/CPM_LM)|GPT-2|自建数据集|
+|[ernie_tiny_couplet](./text/text_generation/ernie_tiny_couplet)|ERNIE tiny|开源对联数据集|
+|[plato2_en_large](./text/text_generation/plato2_en_large)|plato2|开放域多轮数据集|
+|[rumor_prediction](./text/text_generation/rumor_prediction)|-|新浪微博中文谣言数据|
+|[unified_transformer_12L_cn_luge](./text/text_generation/unified_transformer_12L_cn_luge)|Unified Transformer|千言对话数据集|
+|[unified_transformer_12L_cn](./text/text_generation/unified_transformer_12L_cn)|Unified Transformer|千万级别中文会话数据|
+|[plato-mini](./text/text_generation/plato-mini)|Unified Transformer|十亿级别的中文对话数据|
+|written_request_for_leave|ERNIE-GEN|假条数据|
 
    - ### 词向量
 
@@ -218,6 +237,11 @@
 
    - ### 文本审核
 
+|module|网络|数据集|简介|
+|--|--|--|--|
+|[porn_detection_lstm](./text/text_review/porn_detection_lstm)|LSTM|百度自建数据集|
+|[porn_detection_cnn](./text/text_review/porn_detection_cnn)|CNN|百度自建数据集|
+|[porn_detection_gru](./text/text_review/porn_detection_gru)|GRU|百度自建数据集|
 
 
 ## 语音
