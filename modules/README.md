@@ -89,7 +89,7 @@
 |[Extract_Line_Draft](./image/semantic_segmentation/Extract_Line_Draft)|UNet|Pixiv|
 |[humanseg_lite](./image/semantic_segmentation/umanseg_lite)|shufflenet|百度自建数据集|
 |[Pneumonia_CT_LKM_PP](./image/semantic_segmentation/Pneumonia_CT_LKM_PP)|U-NET+|连心医疗授权脱敏数据集|
-|[SkyAR](./image/semantic_segmentation/SkyAR)|UNet|AED20K|
+|[SkyAR](./video/Video_editing/SkyAR)|UNet|AED20K|
 |[Pneumonia_CT_LKM_PP_lung](./image/semantic_segmentation/Pneumonia_CT_LKM_PP_lung)|U-NET+|连心医疗授权脱敏数据集|
 |[ocrnet_hrnetw18_voc](./image/semantic_segmentation/ocrnet_hrnetw18_voc)|ocrnet, hrnet|PascalVoc2012|
 |[U2Net](./image/semantic_segmentation/U2Net)|U^2Net|-|
@@ -219,16 +219,75 @@
    - ### 文本审核
 
 
-## 视频
-   - ### 视频分类
-   - ### 视频修复
-   - ### 多目标追踪
+
 ## 语音
+
    - ### 声音克隆
+
+|module|网络|数据集|简介|
+|--|--|--|--|
+|[lstm_tacotron2](./audio/voice_cloning/lstm_tacotron2/)|Tacotron2|LJSpeech|
+
    - ### 语音合成
+
+|module|网络|数据集|简介|
+|--|--|--|--|
+|[deepvoice3_ljspeech](./audio/tts/deepvoice3_ljspeech/)|Deep Voice 3|LJSpeech|
+|[transformer_tts_ljspeech](./audio/tts/transformer_tts_ljspeech)|Transformer TTS|LJSpeech|
+|[fastspeech_ljspeech](./audio/tts/fastspeech_ljspeech)|FastSpeech|LJSpeech|
+|[fastspeech2_ljspeech](./audio/tts/fastspeech2_ljspeech)|FastSpeech2|LJSpeech-1.1|
+|[fastspeech2_baker](./audio/tts/fastspeech2_baker)|FastSpeech2|中文标准女声音库(Chinese Standard Mandarin Speech Copus)|
+
+
    - ### 语音识别
+
+|module|网络|数据集|简介|
+|--|--|--|--|
+|[deepspeech2_aishell](./audio/asr/deepspeech2_aishell)|DeepSpeech2|AISHELL-1|
+|[deepspeech2_librispeech](./audio/asr/deepspeech2_librispeech)|DeepSpeech2|LibriSpeech|
+|[u2_conformer_librispeech](./audio/asr/u2_conformer_librispeech)|U2Conformer|LibriSpeech|
+|[u2_conformer_aishell](./audio/asr/u2_conformer_aishell)|U2Conformer|AISHELL-1|
+|u2_conformer_wenetspeech|Conformer|WenetSpeech|
+
+
    - ### 声音分类
-   
+
+|module|网络|数据集|简介|
+|--|--|--|--|
+|[panns_cnn6](./audio/audio_classification/PANNs/cnn6)|PANNs|Google Audioset|
+|[panns_cnn14](./audio/audio_classification/PANNs/cnn14)|PANNs|Google Audioset|
+|[panns_cnn10](./audio/audio_classification/PANNs/cnn10)|PANNs|Google Audioset|
+
+
+## 视频
+
+   - ### 视频分类
+
+|module|网络|数据集|简介|
+|--|--|--|--|
+|[videotag_tsn_lstm](./video/classification/videotag_tsn_lstm/)|TSN + AttentionLSTM|百度自建数据集|
+|tsn_kinetics400|TSN|Kinetics-400|
+|tsm_kinetics400|TSM|Kinetics-400|
+|stnet_kinetics400|StNet|Kinetics-400|
+|nonlocal_kinetics400|Non-local|Kinetics-400|
+
+   - ### 多目标追踪
+
+|module|网络|数据集|简介|
+|--|--|--|--|
+|[fairmot_dla34](./video/multiple_object_tracking/fairmot_dla34)|CenterNet|Caltech Pedestrian+CityPersons+CUHK-SYSU+PRW+ETHZ+MOT17|
+|[jde_darknet53](./video/multiple_object_tracking/jde_darknet53)|YOLOv3|Caltech|
+
+
+   - ### 视频修复
+
+|module|网络|数据集|简介|
+|--|--|--|--|
+|video_restoration|-|-|
+|dain|MegaDepth, S2D_models, PWCNet, MonoNet5|Middlebury, Vimeo90K, UCF101, HD|
+|edvr|PCD and TSA|REDS, Vimeo-90K|
+
+
 ## 工业应用 
    - ### 表针识别
 
