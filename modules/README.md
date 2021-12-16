@@ -44,18 +44,13 @@
 
    - ### 图像分类
 
-|module|网络|数据集|
-|--|--|--|
-|rexnet_3_0_imagenet|ReXNet|ImageNet|
-|rexnet_2_0_imagenet|ReXNet|ImageNet|
-|rexnet_1_5_imagenet|ReXNet|ImageNet|
-|rexnet_1_3_imagenet|ReXNet|ImageNet|
-|rexnet_1_0_imagenet|ReXNet|ImageNet|
-|repvgg_b3g4_imagenet|RepVGG|ImageNet|
-|repvgg_b2g4_imagenet|RepVGG|ImageNet|
-|repvgg_b2_imagenet|RepVGG|ImageNet|
-|repvgg_b1g4_imagenet|RepVGG|ImageNet|
-|repvgg_b1g2_imagenet|RepVGG|ImageNet|
+<details><summary>expand</summary><div>
+   
+|module|网络|数据集|简介|
+|--|--|--|--|
+
+   
+</div></details>
 
 
    - ### 图像分割
@@ -198,6 +193,14 @@
 |written_request_for_leave|ERNIE-GEN|假条数据|
 
    - ### 词向量
+   
+<details><summary>expand</summary><div>
+   
+|module|网络|数据集|简介|
+|--|--|--|--|
+
+   
+</div></details>
 
    - ### 机器翻译
 
