@@ -27,8 +27,8 @@
 |[Vehicle_License_Plate_Recognition](./image/text_recognition/Vehicle_License_Plate_Recognition)|-|CCPD|车牌识别|
 |[japan_ocr_db_crnn_mobile](./image/text_recognition/japan_ocr_db_crnn_mobile)|Differentiable Binarization+CRNN|icdar2015数据集|日文文字识别|
 |[german_ocr_db_crnn_mobile](./image/text_recognition/german_ocr_db_crnn_mobile)|Differentiable Binarization+CRNN|icdar2015数据集|德文文字识别|
-|korean_ocr_db_crnn_mobile|Differentiable Binarization+CRNN|icdar2015数据集|韩文文字识别|
-|french_ocr_db_crnn_mobile|Differentiable Binarization+CRNN|icdar2015数据集|法文文字识别|
+|[korean_ocr_db_crnn_mobile](./image/text_recognition/korean_ocr_db_crnn_mobile)|Differentiable Binarization+CRNN|icdar2015数据集|韩文文字识别|
+|[french_ocr_db_crnn_mobile](./image/text_recognition/french_ocr_db_crnn_mobile)|Differentiable Binarization+CRNN|icdar2015数据集|法文文字识别|
 
 
    - ### 关键点检测
